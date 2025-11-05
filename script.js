@@ -4,7 +4,7 @@ let currentAudio = null;
 
 buttons.forEach(btn => {
   btn.addEventListener("click", () => {
-    const soundName = btn.textContent.trim();
+    const soundName = btn.textContent.trim(); 
 
     if (currentAudio) {
       currentAudio.pause();
